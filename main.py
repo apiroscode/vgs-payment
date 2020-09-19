@@ -22,9 +22,9 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-SERVER_KEY = "SB-Mid-server-Eu4g9HWv7zz_uVyzm1J0aTz1"
+SERVER_KEY = "Mid-server-KJHthD0IwbSgfGNe_CHPbydj"
 AUTH_STRING = base64.b64encode(f"{SERVER_KEY}:".encode("ascii"))
-END_POINT = "https://app.sandbox.midtrans.com/snap/v1/transactions"
+END_POINT = "https://app.midtrans.com/snap/v1/transactions"
 
 
 class Transaction(BaseModel):
